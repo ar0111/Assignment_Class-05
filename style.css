@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+header{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+header .navbar{
+    padding: 20px;
+    overflow: hidden;
+}
+header .navbar .logo{
+    float: left;
+    display: float;
+    float: left;
+    width: 20%;
+}
+.navbar nav{
+    float: left;
+    text-align: right;
+    width: 80%;
+}
+.navbar nav ul{
+    text-align: right;
+}
+.navbar nav ul li{
+    display: inline;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.progress{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.progress h1{
+    color: white;
+    font-size: 50px;
+}
+.progress p{
+    color: white;
+    font-size: 18px;
+}
+
+.content-items{
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+.content-items .content{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.content-items .content h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.content-items .content button{
+    margin: 20px 0;
+    padding: 10px 15px;
+    color: white;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content-items .images{
+    float: left;
+    width: 50%;
+}
+
+footer{
+    background-color: #543fb747;
+}
+.footer-contents{
+    padding: 20px 0;
+} 
+.footer-contents .footer-item{
+    width: 20%;
+    margin: 30px;
+    float: left;
+} 
+.footer-contents .footer-item img{
+    margin-bottom: 20px;
+} 
+.footer-contents .footer-item h2{
+    font-size: 25px;
+} 
+.footer-contents .footer-item li{
+    list-style: none;
+    border: 20px 0;
+    margin: 10px 0;
+}
+.footer-image img{
+    width: 100%;
+} 
+
+
+/* Mobile Website Max Width-425px */
+
+@media only screen and (max-width: 425px){
+    .container{
+        width: 400px;
+    }
+
+    header .navbar{
+        padding: 20px;
+    }
+    header .navbar .logo{
+        display:block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .navbar nav{
+        display:block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .navbar nav ul{
+        text-align: left;
+    }
+    .navbar nav ul li{
+        display: inline;
+    }
+    .navbar nav ul li a{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .progress{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .progress h1{
+        font-size: 30px;
+    }
+    .progress p{
+        font-size: 15px;
+    }
+
+    .content-items{
+        margin: 20px 0;
+    }
+    .content-items .content{
+        float:none;
+        width: 90%;
+        margin-right: 5%;
+    }
+    
+    .content-items .content h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .content-items .content p{
+        font-size: 15px;
+    }
+    
+    .content-items .content button{
+        margin: 10px 0;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    
+    .content-items .images{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-items .images img{
+        width: 400px;
+        margin: 10px 0;
+    }
+
+    .footer-contents .footer-item{
+        width: 100%;
+        margin: 10px;
+        float: left;
+    } 
+
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 768px){
+    .container{
+        width: 650px;
+    }
+ 
+    header .navbar{
+        padding: 0px;
+    }
+    header .navbar .logo{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar nav{
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar nav ul{
+        text-align: left;
+    }
+
+    .navbar nav ul li a{
+        margin-left: 0px;
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .content-items{
+        margin-top: 30px;
+    }
+    .content-items .content{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .content-items .content h2{
+        font-size: 25px;
+    }
+
+    .content-items .content p{
+        font-size: 15px;
+    }
+
+    .content-items .images img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer-contents{
+        padding: 20px 0;
+    } 
+    .footer-contents .footer-item{
+        width: 21%;
+        margin: 10px;
+        float: left;
+    } 
+    .footer-contents .footer-item img{
+        margin-bottom: 20px;
+        width: 120px;
+        height: 40px;
+    } 
+    .footer-contents .footer-item h2{
+        font-size: 20px;
+    } 
+    .footer-contents .footer-item li{
+        list-style: none;
+        border: 10px 0;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .footer-image img{
+        width: 100%;
+    } 
+
+}
+
